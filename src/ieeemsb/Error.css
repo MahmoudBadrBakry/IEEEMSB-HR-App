@@ -1,0 +1,68 @@
+
+/* 
+    Created on : Dec 2, 2018, 12:58:18 AM
+    Author     : user
+*/
+.root{
+    -fx-background-color: #FFFFFF;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 15.0px;
+    -fx-text-fill: #FF0000;
+}
+
+.text-field{
+    -fx-background-radius: 14;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.button{
+    -fx-background-color: linear-gradient(#d40000, #FF0000);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16;
+    -fx-text-overrun: ellipsis;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 15.0px;
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(#ff3333, #FF6666);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16;
+    -fx-text-overrun: ellipsis;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 15.0px;
+}
+.button-blue{
+    -fx-background-color: #7cafc2;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+    
+}
+#bold-label{
+    -fx-font-weight: bold;
+}
+.combo-box {
+    
+    -fx-border-radius: 13.0;
+    -fx-text-fill: #DDDDDD;
+    -fx-background-radius: 13.0;
+    -fx-background-color: #0D70AB;
+    -fx-font-family: "Comic Sans MS";
+    -fx-prompt-text-fill: #aaaaaa;
+}
+
+.combo-box .cell
+ {
+    /*-fx-font-family: arial;*/
+    -fx-border-radius: 13.0;
+    -fx-text-fill: #DDDDDD;
+    -fx-background-radius: 13.0;
+    -fx-background-color: #0D70AB;
+    -fx-font-family: "Comic Sans MS";
+    -fx-prompt-text-fill: #aaaaaa;
+ }

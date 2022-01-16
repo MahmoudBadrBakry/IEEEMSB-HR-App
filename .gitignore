@@ -1,0 +1,7 @@
+nbproject/
+dist/
+build/
+${test.src.dir}/
+.settings/
+manifest.mf
+sqlite-jdbc-3.34.0.jar
