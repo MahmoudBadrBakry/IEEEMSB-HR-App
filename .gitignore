@@ -5,3 +5,6 @@ ${test.src.dir}/
 .settings/
 manifest.mf
 sqlite-jdbc-3.34.0.jar
+IEEEMSB-HR-App.iml
+.idea
+out
